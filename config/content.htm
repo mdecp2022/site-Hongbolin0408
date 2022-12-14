@@ -1,6 +1,25 @@
 <h1>About</h1>
 <p>cmsite: wcms use <a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a> as submodule</p>
 <h1>HW</h1>
+<h2>w5</h2>
+<h4>w5亂數</h4>
+<h4>import random (導入 亂數模組程式庫)</h4>
+<h4><span>import string    (導入 字串模組程式庫)</span></h4>
+<h4><span>def password_generator(size=4，chars+string.ascii_lowercase+string.digits):</span></h4>
+<h4><span>(def 定義函數   名字        (初始的值=4，新的字串=字串模組程式.英文小寫(屬性)+字串模組程式.數字(屬性)))</span></h4>
+<h4><span>"""Generate random passward (多行文字註解 生成隨機密碼)</span></h4>
+<h4><span>"""</span></h4>
+<h4>return ' ' . join(random.choice(chars)for_in range(size))</h4>
+<h4>(傳回   ' ' . 轉換成新的字串(亂數模組程式庫.選擇(功能)(新的字串)for迴圈 在 新的字串 中選4次(初始值)))</h4>
+<h4>pass_string="abcdefghkmnpqrstuwxyz123456789"</h4>
+<h4>(設定 字串模組程式庫+"上面的字串")</h4>
+<h4>for i in range(10):</h4>
+<h4>(for迴圈 選(10)次)</h4>
+<h4>print(password_generator(4，pass_string))</h4>
+<h4><br/>(展示<span>(password_generator(4個字符，字串模組程式庫中))</span></h4>
+<h5></h5>
+<h5></h5>
+<p></p>
 <h2>W12</h2>
 <p><a href="https://mdecp2022.github.io/site-Hongbolin0408/content/Brython.html?src=https://gist.githubusercontent.com/Hongbolin0408/420b51cbe0063d8d970f21172ad26dd5/raw/a6838f7ed85773802353b17e71929ae64bd30d30/w12_hw.1-py">hw 第一個練習</a></p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># Brython 的 input() 可以接受輸入提示字串, 跳出瀏覽器輸入表單後, 將輸入內容以字串取回
@@ -87,7 +106,8 @@ brython({debug:1, pythonpath:['/static/','/downloads/py/']});
 <p>c= input ("請輸入攝氏溫度值") //c=輸入數值</p>
 <p>#print(type(c)) //接著列出c變數的資料型別</p>
 <p>c=float(c) //把c轉成浮點數</p>
-<p>print("你輸入的攝氏溫度:" + str(c),"等於華氏溫度:"+ str(c*9/5+32)) //展示數值("文字"後 加上 使用STR()中的函數後的字串，同左)
+<p>print("你輸入的攝氏溫度:" + str(c),"等於華氏溫度:"+ str(c*9/5+32)) //展示數值("文字"後 加上 使用STR()中的函數後的字串，同左)</p>
+<p>
 <script type="text/python">
 from browser import html, document
 # Brython 的 input() 可以接受輸入提示字串, 跳出瀏覽器輸入表單後, 將輸入內容以字串取回
@@ -101,7 +121,8 @@ brython_div = document["brython_div"]
 brython_div <= user_input_temp
 # 之後若要列出 html, 則需要透過 Brython 的 html 模組
 </script>
-</p><h1>Brython</h1>
+</p>
+<h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
 <h4>Examples:</h4>
 <p style="padding-left: 30px;"><a href="https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d">https://gist.github.com/mdecycu/d9082d678096bd58378d6afe2c7fa05d</a></p>
