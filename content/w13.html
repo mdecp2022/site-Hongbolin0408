@@ -179,7 +179,15 @@ brython({debug:1, pythonpath:['./../cmsimde/static/','/downloads/py/']});
 </script>
 </p>
 <p><a href="https://mdecp2022.github.io/site-Hongbolin0408/content/Brython.html?src=https://gist.githubusercontent.com/Hongbolin0408/cf40b47f0b84447f8efebc50690730af/raw/390e9708a14838de2e92f3fd9ac2a997e8cea54a/w13_temp_ex2.py">w13_ex2攝氏轉華氏</a></p>
-<p>
+<p></p>
+<p>''' //多行文字註解</p>
+<p>f=c*9/5+32</p>
+<p>c=(f-32)*5/9</p>
+<p>''' <span>//多行文字註解</span></p>
+<p>c= input ("請輸入攝氏溫度值") //c=輸入數值</p>
+<p>#print(type(c)) //接著列出c變數的資料型別</p>
+<p>c=float(c) //把c轉成浮點數</p>
+<p>print("你輸入的攝氏溫度:" + str(c),"等於華氏溫度:"+ str(c*9/5+32)) //展示數值("文字"後 加上 使用STR()中的函數後的字串，同左)
 <script type="text/python">
 from browser import html, document
 # Brython 的 input() 可以接受輸入提示字串, 跳出瀏覽器輸入表單後, 將輸入內容以字串取回
