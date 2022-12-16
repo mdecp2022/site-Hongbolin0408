@@ -2,6 +2,19 @@
 <p>cmsite: wcms use <a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a> as submodule</p>
 <h1>HW</h1>
 <h2>w5</h2>
+<p><a href="https://mdecp2022.github.io/site-Hongbolin0408/content/Brython.html?src=https://gist.githubusercontent.com/Hongbolin0408/023214f6b1f0a7281967815d02df4968/raw/8888194b7682d5db94726f6240d773520cbc771a/w5">w5亂數</a></p>
+<p>import random//導入 亂數模組程式庫</p>
+<p><span>import string//導入 字串模組程式庫</span></p>
+<p><span>def password_generator(size=4，chars+string.ascii_lowercase+string.digits):</span></p>
+<p><span>(def 定義函數   名字        (初始的值=4，新的字串=字串模組程式.英文小寫(屬性)+字串模組程式.數字(屬性)))</span></p>
+<p><span>"""Generate random passward//多行文字註解 生成隨機密碼</span></p>
+<p><span>"""</span></p>
+<p>return ' ' . join(random.choice(chars)for_in range(size))</p>
+<p>(傳回   ' ' . 轉換成新的字串(亂數模組程式庫.選擇(功能)(新的字串)for迴圈 在 新的字串 中選4次(初始值)))</p>
+<p>pass_string="abcdefghkmnpqrstuwxyz123456789"//設定 字串模組程式庫+"上面的字串"</p>
+<p>for i in range(10)://for迴圈 選(10)次</p>
+<p>print(password_generator(4，pass_string))</p>
+<p><br/>(展示<span>(password_generator(4個字符，字串模組程式庫中))</span></p>
 <h2>W6</h2>
 <p><a href="https://mdecp2022.github.io/site-Hongbolin0408/content/Brython.html?src=https://gist.githubusercontent.com/Hongbolin0408/ad922cbc46146758785c26e47fc9968d/raw/68d63afaf6264ef9c6e914da9c9a59198efd0f7e/w6">w6抽點</a></p>
 <p><a href="https://mdecp2022.github.io/site-Hongbolin0408/content/Brython.html?src=https://gist.githubusercontent.com/Hongbolin0408/ad922cbc46146758785c26e47fc9968d/raw/94c03bc51f0d62659a67b05b8e839fccdab15406/w6-1">w6列出每個人的靜態網頁</a></p>
@@ -125,6 +138,7 @@ brython({debug:1, pythonpath:['/static/','/downloads/py/']});
 <p>#print(type(c)) //接著列出c變數的資料型別</p>
 <p>c=float(c) //把c轉成浮點數</p>
 <p>print("你輸入的攝氏溫度:" + str(c),"等於華氏溫度:"+ str(c*9/5+32)) //展示數值("文字"後 加上 使用STR()中的函數後的字串，同左)</p>
+<h2>w15</h2>
 <p>
 <script type="text/python">
 from browser import html, document
