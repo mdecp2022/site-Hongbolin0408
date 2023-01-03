@@ -345,7 +345,8 @@ doc["threejsblock"].bind("click", threejsblock.do)
 <p>for i in range(1, 10, 2)://for i 迴圈 整數序列 (起始值, 終止值, 遞增(減)值)</p>
 <p>print//顯示訊息</p>
 <p></p>
-<p></p><h2>W12</h2>
+<p></p>
+<h2>W12</h2>
 <p><a href="https://mdecp2022.github.io/site-Hongbolin0408/content/Brython.html?src=https://gist.githubusercontent.com/Hongbolin0408/420b51cbe0063d8d970f21172ad26dd5/raw/a6838f7ed85773802353b17e71929ae64bd30d30/w12_hw.1-py">hw 第一個練習</a></p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># Brython 的 input() 可以接受輸入提示字串, 跳出瀏覽器輸入表單後, 將輸入內容以字串取回
 user_input_temp = input("請輸入攝氏溫度值:")
@@ -449,7 +450,34 @@ brython({debug:1, pythonpath:['/static/','/downloads/py/']});
 <p>A:可以改變圖形的顏色和形狀。</p>
 <p>7.變數, 字串, 整數, 浮點數, 數列, Tuple, Dictionary, 函式, 重複迴圈, class, 物件導向, 資料庫, 這些名詞對您而言代表甚麼?</p>
 <p>A:我覺得很難，然後他是一個程式語言的運用工具。</p>
-<p><a href="https://mdecp2022.github.io/site-Hongbolin0408/content/Brython.html?src=https://gist.githubusercontent.com/Hongbolin0408/593c6671b07ca724270f6904082db67c/raw/4d9491314b13db259bbe0f0a8efa91c347afa127/w15-1">w15方塊</a></p><h1>心得</h1>
+<h5><a href="https://mdecp2022.github.io/site-Hongbolin0408/content/Brython.html?src=https://gist.githubusercontent.com/Hongbolin0408/593c6671b07ca724270f6904082db67c/raw/4d9491314b13db259bbe0f0a8efa91c347afa127/w15-1">w15方塊</a></h5>
+<h2>w17</h2>
+<p>函式定義與呼叫</p>
+<pre class="brush:py;auto-links:false" contenteditable="false">def lenght(inch):
+    #sum = 0
+    #start =1
+    #end =100
+    '''
+    for i in range(start,end+1,1):
+        sum = sum + i
+        #print(i)
+    print("由" + str(start) + "加到" + str(end) + "等於:" + str(sum))
+    '''
+    cm= inch * 2.54
+    print(cm)
+'''
+sumto(1,10)
+sumto(3,100)
+'''
+lenght(80)</pre>
+<p>列出python關鍵字</p>
+<pre class="brush:py;auto-links:false" contenteditable="false">import keyword
+print(keyword.kwlist)
+'''
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+'''</pre>
+<p><br/><br/></p><h1>心得</h1>
 <p>一開始學這個完全沒頭緒，到後面跟著老師的影片做，然後再跟同學一起討論，慢慢的也知道該怎麼做了，雖然還是沒有到很精通，不過還是有一點基礎。</p>
 <p>
 <script type="text/python">
